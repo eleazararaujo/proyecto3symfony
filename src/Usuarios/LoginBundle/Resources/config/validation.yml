@@ -1,0 +1,7 @@
+Usuarios\LoginBundle\Entity\Login:
+    properties:
+        username:
+            - NotBlank: ~
+            
+        password:
+            - NotBlank: ~

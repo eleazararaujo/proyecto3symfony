@@ -1,0 +1,7 @@
+parameters:
+#    prueba_prueba.example.class: Prueba\PruebaBundle\Example
+
+services:
+#    prueba_prueba.example:
+#        class: %prueba_prueba.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

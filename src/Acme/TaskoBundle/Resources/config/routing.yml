@@ -1,0 +1,3 @@
+AcmeHellooBundle_homepage:
+    pattern:  /task_new
+    defaults: { _controller: AcmeTaskBundle:Default:new }

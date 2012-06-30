@@ -1,0 +1,3 @@
+PruebaPruebaBundle_homepage:
+    pattern:  /asistente/
+    defaults: { _controller: PruebaPruebaBundle:Asistente:index }

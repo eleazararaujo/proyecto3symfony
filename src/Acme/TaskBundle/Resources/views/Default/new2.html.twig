@@ -1,0 +1,6 @@
+Gusto en conocerte <strong>{{ name }}</strong>. Por favor dinos cual es tu correo electronico
+<form action="{{ path('task2_new') }}" method="post" {{ form_enctype(form) }}>
+    {{ form_row(form.email) }}
+    {{ form_rest(form) }}
+    <input type="submit">
+</form>

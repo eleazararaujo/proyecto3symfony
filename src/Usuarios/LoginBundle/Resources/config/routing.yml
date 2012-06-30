@@ -1,0 +1,11 @@
+UsuariosLoginBundle_homepage:
+    pattern:  /index
+    defaults: { _controller: UsuariosLoginBundle:Default:index }
+    
+login:
+    pattern:  /login/
+    defaults: { _controller: UsuariosLoginBundle:Default:login }
+    
+logout:
+    pattern:  /logout/
+    defaults: { _controller: UsuariosLoginBundle:Default:logout }

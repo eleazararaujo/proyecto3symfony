@@ -1,0 +1,20 @@
+Usuarios\RegistroBundle\Entity\Registro:
+    properties:
+        username:
+            - NotBlank: ~
+        email:
+            - NotBlank: ~
+        nickname:
+            - NotBlank: ~
+            
+        password:
+            - NotBlank: ~
+            - MinLength: 6          
+            
+        passwordco:
+            - NotBlank: ~
+            
+    getters:
+        TheSame:
+            - "True": { message: "Ambas contrasenas deben coincidir" }
+        

@@ -1,0 +1,24 @@
+{% if errores != "" %}
+    <strong>{{ errores }}</strong>
+{% endif %}
+<br/>
+
+<form action="{{ path('login') }}" method="post" {{ form_enctype(form) }}>
+    {{ form_errors(form) }}
+
+<div>
+     Nombre de Usuario <br/>
+     {{ form_widget(form.username) }}
+    {{ form_errors(form.username) }}
+</div> 
+
+    <div>
+     Contrase&ntilde;a <br/>
+     {{ form_widget(form.password) }}
+    {{ form_errors(form.password) }}
+</div> 
+
+    {{ form_rest(form) }}
+
+    <input type="submit" />
+</form>

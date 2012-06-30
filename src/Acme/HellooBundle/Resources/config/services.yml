@@ -1,0 +1,7 @@
+parameters:
+#    acme_helloo.example.class: Acme\HellooBundle\Example
+
+services:
+#    acme_helloo.example:
+#        class: %acme_helloo.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

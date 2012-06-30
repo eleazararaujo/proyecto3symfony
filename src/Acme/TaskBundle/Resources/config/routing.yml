@@ -1,0 +1,16 @@
+AcmeTaskBundle_homepage:
+    pattern:  /task_new/
+    defaults: { _controller: AcmeTaskBundle:Default:new }
+    
+task_new:
+    pattern:  /task_new/
+    defaults: { _controller: AcmeTaskBundle:Default:new }
+    
+task_success:
+    pattern:  /task_success/
+    defaults: { _controller: AcmeTaskBundle:Default:success }
+    
+task2_new:
+    pattern:  /task_new2/
+    defaults: { _controller: AcmeTaskBundle:Default:new2 }
+  

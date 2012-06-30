@@ -1,0 +1,28 @@
+UsuariosLoginBundle:
+    resource: "@UsuariosLoginBundle/Resources/config/routing.yml"
+    prefix:   /
+
+UsuariosRegistroBundle:
+    resource: "@UsuariosRegistroBundle/Resources/config/routing.yml"
+    prefix:   /
+
+AcmeTaskBundle:
+    resource: "@AcmeTaskBundle/Resources/config/routing.yml"   
+    prefix:   /
+
+AcmeHellooBundle:
+    resource: "@AcmeHellooBundle/Resources/config/routing.yml"
+    prefix:   /
+
+PruebaPruebaBundle:
+    resource: "@PruebaPruebaBundle/Resources/config/routing.yml"
+    prefix:   /
+
+AcmeHelloBundle:
+    resource: "@AcmeHelloBundle/Resources/config/routing.yml"
+    prefix:   /
+
+# Internal routing configuration to handle ESI
+#_internal:
+#   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
+#   prefix:   /_internal
